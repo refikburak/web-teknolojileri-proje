@@ -1,5 +1,5 @@
 .bg-index {
-  background-image: url(imageedit_1_9808515421.png);
+  background-image: url(003+background+pattern+designs.jpg);
   background-size: auto;
 }
 
@@ -31,6 +31,7 @@
   margin-bottom: 16px;
   width: 97%;
   align-content: center;
+  background-color: #eeeeeebe;
 }
 
 .content-header {
@@ -43,6 +44,8 @@
 .p-text {
   white-space: pre-wrap;
   text-align: justify;
+  font-weight: bold;
+  font-size: 22px;
 }
 .center {
   display: block;
@@ -51,34 +54,50 @@
   width: 100%;
 }
 
+.image-rounding{
+  border:3px;
+  border-color: black;
+  border-radius: 25px;
+}
+
+.responsive-fs{
+  font-size: 15px;
+  font-weight: 630;
+  text-align: justify;
+}
+
+.font-border{
+  -webkit-text-stroke: 1px black;
+}
+
 @media (min-width: 576px) {
-  .navbar-font {
+  .navbar-font ,.copyright {
     font-size: 12px;
   }
 }
 
 @media (min-width: 768px) {
-  .navbar-font {
+  .navbar-font ,.copyright {
     font-size: 14px;
   }
 }
 
 @media (min-width: 992px) {
-  .navbar-font {
+  .navbar-font ,.copyright {
     font-size: 16px;
     font-weight: bold;
   }
 }
 
 @media (min-width: 1200px) {
-  .navbar-font {
+  .navbar-font ,.copyright {
     font-size: 18px;
     font-weight: bold;
   }
 }
 
 @media (min-width: 1400px) {
-  .navbar-font {
+  .navbar-font ,.copyright {
     font-size: 20px;
     font-weight: bold;
   }
@@ -114,5 +133,47 @@
   .content-header {
     font-size: 63px;
     font-weight: bold;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-basic {
+    font-family: "azo-sans-web", helvetica, arial, sans-serif;
+    padding: 8px 0;
+    background-color: #393E46;
+    color: #eeeeee;
+  }
+}
+
+@media (min-width: 576px){
+  .responsive-fs{
+    font-size: 18px;
+    font-weight: 550;
+  }
+}
+
+@media (min-width: 768px){
+  .responsive-fs{
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 992px){
+  .responsive-fs{
+    font-size: 24px;
+    font-weight: 450;
+  }
+}
+@media (min-width: 1200px){
+  .responsive-fs{
+    font-size: 27px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 1400px){
+  .responsive-fs{
+    font-size: 30px;
+    font-weight: 350;
   }
 }
