@@ -3820,15 +3820,6 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   color: #eeeeee;
   text-decoration: none;
-
-/* EKLEME */
-
-  font-family: "azo-sans-web",helvetica,arial,sans-serif;
-  font-size: 12px;
-  font-weight: 480;
-
-/* EKLEME */
-
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3878,15 +3869,6 @@ textarea.form-control-lg {
   border: 0;
   border-radius: 0.25rem;
 }
-
-
-/* EKLEME */
-.nav-link:hover:not(.active){
-  background-color: #aad8d3;
-  color: #393E46;
-}
-/* EKLEME */
-
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -7415,30 +7397,6 @@ textarea.form-control-lg {
 .bg-danger {
   background-color: #dc3545 !important;
 }
-
-/* EKLEME */
-
-.bg-turkuaz {
-  background-color: #00adb5 !important;
-}
-
-.bg-acikmavi{
-  background-color: #aad8d3 !important;
-}
-
-.bg-koyugri{
-  background-color: #393e46 !important;
-}
-
-.bg-beyaz{
-  background-color: #eeeeee !important;
-}
-
-/* .bg-arkaplanindex{
-  background-color: #afe2e9 !important;
-} */
-
-/* EKLEME */
 
 .bg-light {
   background-color: #f8f9fa !important;
