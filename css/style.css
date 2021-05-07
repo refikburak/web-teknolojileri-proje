@@ -34,6 +34,18 @@
   background-color: #eeeeeebe;
 }
 
+.main-container-transparent {
+  border: 3px solid transparent;
+  border-radius: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 97%;
+  align-content: center;
+}
+
+.navbar-font{
+  font-size: 10px;
+}
 
 .content-header {
   font-size: 35px;
@@ -127,6 +139,16 @@
 .border-turkuaz {
   border-color: #00adb5 !important;
 }
+
+.mesaj-height{
+  height: 300px !important;
+}
+
+.iletisim-fs{
+  font-family: "azo-sans-web",helvetica,arial,sans-serif;
+  font-weight: 5000;
+}
+
 
 /* .zoom {
   background-color: transparent;
