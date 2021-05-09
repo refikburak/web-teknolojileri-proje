@@ -110,6 +110,12 @@
   background-color: #aad8d3;
   color: #393E46;
 }
+.login-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 .nav-link {
   display: block;
@@ -148,7 +154,6 @@
   font-family: "azo-sans-web",helvetica,arial,sans-serif;
   font-weight: 5000;
 }
-
 
 /* .zoom {
   background-color: transparent;

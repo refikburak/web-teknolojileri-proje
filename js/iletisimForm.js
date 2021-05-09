@@ -17,11 +17,15 @@ function validatePhone(phone) {
     var format = /[0-9]{3}[-][0-9]{3}[-][0-9]{2}[-][0-9]{2}/;
     return format.test(phone);
 }
-epostachk.onchange=function(){
-    eposta.disabled=!this.checked
+epostachk.onchange = function () {
+    eposta.disabled = !this.checked
 }
-telchk.onchange=function(){
-    telefon.disabled=!this.checked
+telchk.onchange = function () {
+    telefon.disabled = !this.checked
+}
+document.getElementById("sifirla").onclick = function () {
+    eposta.disabled = false;
+    telefon.disabled = false;
 }
 
 form.onsubmit = function () {
@@ -65,3 +69,4 @@ form.onsubmit = function () {
         return false;
     }
 }
+
