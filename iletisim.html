@@ -26,33 +26,33 @@
     </div>
 
     <div class="container-fluid main-container">
-        <form action="bilgilerigoster.html" method="POST" name="formIletisim">
+        <form action="formgoster.php" method="POST" name="formIletisim">
             <div class="content-header text-center">İletişim</div>
             <div class="row m-2 iletisim-fs">
                 <div class="col-md-6 col-12">
                     <div class="form-floating m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                        <input type="text" class="form-control" id="adsoyad" placeholder="Ad Soyad">
+                        <input type="text" class="form-control" id="adsoyad" name="adsoyad" placeholder="Ad Soyad">
                         <label for="adsoyad">Ad Soyad</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12">
                     <div class="form-floating m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                        <input type="text" class="form-control" id="eposta" placeholder="E-Posta">
+                        <input type="text" class="form-control" id="eposta" name="eposta" placeholder="E-Posta">
                         <label for="eposta">E-Posta Adresi</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12">
                     <div class="form-floating m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                        <input type="tel" class="form-control" id="telefon" placeholder="Telefon Numarası">
+                        <input type="tel" class="form-control" id="telefon" name="telefon" placeholder="Telefon Numarası">
                         <label for="telefon">Telefon Numarası (5xx-xxx-xx-xx)</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-12">
                     <div class="form-floating m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                        <select class="form-select" id="sehirler">
+                        <select class="form-select" id="sehirler" name="sehirler">
                             <option selected value="0">Şehir Seçiniz...</option>
                             <option value="1">Adana</option>
                             <option value="2">Adıyaman</option>
@@ -144,13 +144,13 @@
                     <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
                         Size ulaşabileceğim yollar;
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="epostachk" id="epostachk" checked>
+                            <input class="form-check-input" type="checkbox" value="epostachk" id="epostachk" name="epostachk" checked>
                             <label class="form-check-label" for="epostachk">
                                 E-Posta
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="telchk" id="telchk" checked>
+                            <input class="form-check-input" type="checkbox" value="telchk" id="telchk" name="telchk" checked>
                             <label class="form-check-label" for="telchk">
                                 Telefon numarası
                             </label>
@@ -162,19 +162,19 @@
                     <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
                         Ulaşma sebebiniz;
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" id="sebep" value="oneri" checked>
+                            <input class="form-check-input" type="radio" id="sebep" name="sebep" value="oneri" checked>
                             <label class="form-check-label" for="sebep">
                                 Öneri
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" id="sebep" value="sikayet">
+                            <input class="form-check-input" type="radio" id="sebep" name="sebep" value="sikayet">
                             <label class="form-check-label" for="sebep">
                                 Şikayet
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" id="sebep" value="diger">
+                            <input class="form-check-input" type="radio" id="sebep" name="sebep" value="diger">
                             <label class="form-check-label" for="sebep">
                                 Diğer
                             </label>
@@ -184,14 +184,14 @@
 
                 <div class="col-12">
                     <div class="form-floating m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                        <input type="text" class="form-control" id="konu" placeholder="Konu">
+                        <input type="text" class="form-control" id="konu" name="konu" placeholder="Konu">
                         <label for="konu">Konu</label>
                     </div>
                 </div>
 
                 <div class="col-12">
                     <div class="form-floating m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                        <textarea class="mesaj-height form-control" placeholder="Mesajınızı buraya yazın." id="mesaj"></textarea>
+                        <textarea class="mesaj-height form-control" placeholder="Mesajınızı buraya yazın." id="mesaj" name="mesaj"></textarea>
                         <label for="mesaj">Mesajınız</label>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                     <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
                         Eklemek istediğiniz dosya/dosyalar;
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="ekdosya" multiple>
+                            <input type="file" class="form-control" id="ekdosya" name="ekdosya" multiple>
                         </div>
                     </div>
                 </div>
@@ -226,6 +226,6 @@
             <p class="copyright">Refik Burak Akbaş</p>
         </footer>
     </div>
-    <script type="text/javascript" src="js/iletisimForm.js"></script>
+    <script type="text/javascript" src="js/iletisim.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>

@@ -29,12 +29,14 @@
         <div class="row">
             <div class="content-header text-center mb-3">Giriş Yap</div>
             <div class="col-12 col-md-6">
-            <form method="POST" action="login.php" id="loginForm">
+            <form method="POST" action="login.php" id="formGiris">
                 <div class="row iletisim-fs">
                 <div class="col-1 col-sm-2 col-md-1"></div>
                 <div class="col-10 col-sm-8 col-md-10">
+                    <div class="login-failed responsive-fs col-12" id="loginfailed">
+                    </div>
             <div class="form-floating mb-4">
-                <input type="email" class="form-control" name="kullaniciAdi" placeholder="kullaniciadi@sakarya.edu.tr">
+                <input type="text" class="form-control" id="kullaniciAdi" placeholder="kullaniciadi@sakarya.edu.tr">
                 <label for="kullaniciadi">Kullanıcı Adı</label>
             </div>
             </div>
@@ -45,7 +47,7 @@
             <div class="col-1 col-sm-2 col-md-1"></div>
             <div class="col-10 col-sm-8 col-md-10">
             <div class="form-floating mb-4">
-                <input type="password" class="form-control" name="sifre" placeholder="Şifre">
+                <input type="password" class="form-control" id="sifre" placeholder="Şifre">
                 <label for="sifre">Şifre</label>
             </div>
             </div>
@@ -61,17 +63,12 @@
                 </div>
             </div>
         </form>
-        </div>
-        
-        <div class="col-md-6 col-12">
-            <p class="responsive-fs text-center"><a href="#" onclick="alert('Kullanıcı Adı : g201210050@sakarya.edu.tr\nŞifre : g201210050')">Kullanıcı adı veya şifrenizi mi unuttunuz?</a></p>
-            <p class="responsive-fs text-center">Sitede giriş yapmadan da dolaşabilirsiniz.</p>
-
-        </div>
-
-
-
-
+    </div>
+    
+    <div class="col-md-6 col-12">
+        <p class="responsive-fs text-center"><a href="#" onclick="alert('Kullanıcı Adı : g201210050@sakarya.edu.tr\nŞifre : g201210050')">Kullanıcı adı veya şifrenizi mi unuttunuz?</a></p>
+        <p class="responsive-fs text-center">Sitede giriş yapmadan da dolaşabilirsiniz.</p>
+    </div>
         </div>
     </div>
 
@@ -81,5 +78,6 @@
             <p class="copyright">Refik Burak Akbaş</p>
         </footer>
     </div>
+    <script type="text/javascript" src="js/giris.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>

@@ -6,7 +6,7 @@
 .footer-basic {
   font-family: "azo-sans-web", helvetica, arial, sans-serif;
   padding: 15px 0;
-  background-color: #393E46;
+  background-color: #393e46;
   color: #eeeeee;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .main-container {
-  border: 3px solid #00ADB5;
+  border: 3px solid #00adb5;
   border-radius: 25px;
   margin-top: 16px;
   margin-bottom: 16px;
@@ -43,7 +43,7 @@
   align-content: center;
 }
 
-.navbar-font{
+.navbar-font {
   font-size: 10px;
 }
 
@@ -51,7 +51,7 @@
   font-size: 35px;
   font-weight: 700;
   text-align: center;
-  color: #393E46;
+  color: #393e46;
 }
 
 .p-text {
@@ -84,9 +84,9 @@
   -webkit-text-stroke: 1.5px black;
 }
 
-.content-header2{
+.content-header2 {
   font-size: 25px;
-  color: #393E46;
+  color: #393e46;
   font-weight: 600;
 }
 
@@ -94,21 +94,21 @@
   background-color: #00adb5 !important;
 }
 
-.bg-acikmavi{
+.bg-acikmavi {
   background-color: #aad8d3 !important;
 }
 
-.bg-koyugri{
+.bg-koyugri {
   background-color: #393e46 !important;
 }
 
-.bg-beyaz{
+.bg-beyaz {
   background-color: #eeeeee !important;
 }
 
-.nav-link:hover:not(.active){
+.nav-link:hover:not(.active) {
   background-color: #aad8d3;
-  color: #393E46;
+  color: #393e46;
 }
 .login-footer {
   position: fixed;
@@ -122,10 +122,11 @@
   padding: 0.5rem 1rem;
   color: #eeeeee;
   text-decoration: none;
-  font-family: "azo-sans-web",helvetica,arial,sans-serif;
+  font-family: "azo-sans-web", helvetica, arial, sans-serif;
   font-size: 12px;
   font-weight: 480;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 .btn-custom {
@@ -134,11 +135,11 @@
   border-color: #00adb5;
 }
 .btn-custom:hover {
-  color: #393E46;
+  color: #393e46;
   background-color: #aad8d3;
   border-color: #aad8d3;
 }
-.btn-custom:focus{
+.btn-custom:focus {
   box-shadow: 0 0 0 0.25rem #aad8d3da;
 }
 
@@ -146,15 +147,21 @@
   border-color: #00adb5 !important;
 }
 
-.mesaj-height{
+.mesaj-height {
   height: 300px !important;
 }
 
-.iletisim-fs{
-  font-family: "azo-sans-web",helvetica,arial,sans-serif;
+.iletisim-fs {
+  font-family: "azo-sans-web", helvetica, arial, sans-serif;
   font-weight: 5000;
 }
 
+.login-failed {
+  font-family: "azo-sans-web", helvetica, arial, sans-serif;
+  color: #9c1c1c;
+  text-align: center;
+  margin-bottom: 8px;
+}
 /* .zoom {
   background-color: transparent;
   transition: transform .4s;
@@ -168,33 +175,38 @@
 } */
 
 @media (min-width: 576px) {
-  .navbar-font, .copyright {
+  .navbar-font,
+  .copyright {
     font-size: 12px;
   }
 }
 
 @media (min-width: 768px) {
-  .navbar-font, .copyright {
+  .navbar-font,
+  .copyright {
     font-size: 14px;
   }
 }
 
 @media (min-width: 992px) {
-  .navbar-font, .copyright {
+  .navbar-font,
+  .copyright {
     font-size: 16px;
     font-weight: bold;
   }
 }
 
 @media (min-width: 1200px) {
-  .navbar-font, .copyright {
+  .navbar-font,
+  .copyright {
     font-size: 18px;
     font-weight: bold;
   }
 }
 
 @media (min-width: 1400px) {
-  .navbar-font, .copyright {
+  .navbar-font,
+  .copyright {
     font-size: 20px;
     font-weight: bold;
   }
@@ -237,7 +249,7 @@
   .footer-basic {
     font-family: "azo-sans-web", helvetica, arial, sans-serif;
     padding: 8px 0;
-    background-color: #393E46;
+    background-color: #393e46;
     color: #eeeeee;
   }
 }
