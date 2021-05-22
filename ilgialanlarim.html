@@ -9,13 +9,13 @@
 </head>
 
 <body class="bg-index">
+    <title>İlgi Alanlarım - G201210050</title>
     <div class="container-fluid sticky-top">
         <div class="row">
             <div class="bg-koyugri shadow">
                 <nav class="nav nav-pills nav-justified mt-xl-2 mb-xl-2 mt-md-1 mb-md-1 mt-sm-0 mb-sm-0">
-                    <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font"
-                        href="index.html">HAKKIMDA</a>
-                        <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="sehrim.html">ŞEHRİM</a>
+                    <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="index.html">HAKKIMDA</a>
+                    <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="sehrim.html">ŞEHRİM</a>
                     <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="mirasimiz.html">MİRASIMIZ</a>
                     <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="iletisim.html">İLETİŞİM</a>
                     <a class="nav-link navbar-font" href="giris.html">GİRİŞ</a>
@@ -24,12 +24,32 @@
         </div>
     </div>
 
+    <div class="container-fluid main-container color-grey responsive-fs">
+        <header class="content-header">İlgi Alanlarım</header>
+        <header class="content-header2 text-center fw-bold">Yıllara Göre Yarışan F1 Pilotları</header>
+        <p>1950'den beri her yıl düzenlenen Formula 1 yarışlarında hangi yıl hangi pilotların mücadele ettiğini görmek için, istediğiniz bir yılı girin ve 'Göster' butonuna basın. Veriler, <a href="http://ergast.com/mrd/">Ergast
+                Developer API</a> tarafından sağlanmaktadır.</p>
+        <div class="row">
+            <div class="col-6">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon3">Yıl</span>
+                    <input type="text" class="form-control form-control-lg" id="year">
+                </div>
+            </div>
+            <div class="col-6">
+                <a class="btn btn-custom center mt-1 mb-1 fw-bold text-center responsive-fs" role="button" id="f1pilots">Göster</a>
+            </div>
+            <div id="f1pilotShow"></div>
+            <a href="http://ergast.com/mrd/" class="text-end cv-fs">Ergast Developer API</a>
+        </div>
 
+    </div>
 
-    <div class="footer-basic">
+    <div class="footer-basic container-fluid">
         <footer>
             <p class="copyright">Refik Burak Akbaş</p>
         </footer>
     </div>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/f1api.js"></script>
 </body>

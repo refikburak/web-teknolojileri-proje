@@ -12,14 +12,11 @@
     $pasCheck = "g201210050";
     if ($_POST['kullaniciAdi'] == $idCheck && $_POST['sifre'] == $pasCheck) {
         echo 'Hoşgeldiniz "' . $pasCheck . '"';
-        echo '<a href="index.html"><br>Giriş sayfasına geri dönmek için tıklayın.</a>';;
+        echo '<a href="index.html"><br>Anasayfaya geri dönmek için tıklayın.</a>';
     } else {
         header('Location: /proje/giris.html#loginFailed');
     }
     ?>
 </body>
-
-
-
 
 </html>

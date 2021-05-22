@@ -8,7 +8,7 @@
 
 <body>
     <?php
-    function veritemizle($veri)
+    function TrimData($veri)
     {
         $veri = trim($veri);
         $veri = stripslashes($veri);
@@ -16,7 +16,7 @@
     }
     error_reporting(0);
     echo "<h1>FORM BİLGİLERİ</h1>";
-    echo "<br>Adınız-Soyadınız: " . $_POST["adsoyad"];
+    echo "<br>Adınız-Soyadınız: " . $_POST['adsoyad'];
     echo "<br>E-Posta Adresi: ";
     if (isset($_POST['epostachk'])) {
         echo $_POST['eposta'];

@@ -14,8 +14,7 @@
         <div class="row">
             <div class="bg-koyugri shadow">
                 <nav class="nav nav-pills nav-justified mt-xl-2 mb-xl-2 mt-md-1 mb-md-1 mt-sm-0 mb-sm-0">
-                    <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font"
-                        href="index.html">HAKKIMDA</a>
+                    <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="index.html">HAKKIMDA</a>
                     <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="sehrim.html">ŞEHRİM</a>
                     <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="mirasimiz.html">MİRASIMIZ</a>
                     <a class="nav-link me-xxl-4 me-xl-3 me-md-2 me-sm-1 navbar-font" href="iletisim.html">İLETİŞİM</a>
@@ -29,51 +28,52 @@
         <div class="row">
             <div class="content-header text-center mb-3">Giriş Yap</div>
             <div class="col-12 col-md-6">
-            <form method="POST" action="login.php" id="formGiris">
-                <div class="row iletisim-fs">
-                <div class="col-1 col-sm-2 col-md-1"></div>
-                <div class="col-10 col-sm-8 col-md-10">
-                    <div class="login-failed responsive-fs col-12" id="loginfailed">
+                <form method="POST" action="login.php" id="formGiris">
+                    <div class="row iletisim-fs">
+                        <div class="col-1 col-sm-2 col-md-1"></div>
+                        <div class="col-10 col-sm-8 col-md-10">
+                            <div class="login-failed responsive-fs col-12" id="loginfailed">
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input type="text" class="form-control" id="kullaniciAdi" name="kullaniciAdi" placeholder="kullaniciadi@sakarya.edu.tr">
+                                <label for="kullaniciadi">Kullanıcı Adı</label>
+                            </div>
+                        </div>
+                        <div class="col-1 col-sm-2 col-md-1"></div>
                     </div>
-            <div class="form-floating mb-4">
-                <input type="text" class="form-control" id="kullaniciAdi" placeholder="kullaniciadi@sakarya.edu.tr">
-                <label for="kullaniciadi">Kullanıcı Adı</label>
-            </div>
-            </div>
-            <div class="col-1 col-sm-2 col-md-1"></div>
+
+                    <div class="row">
+                        <div class="col-1 col-sm-2 col-md-1"></div>
+                        <div class="col-10 col-sm-8 col-md-10">
+                            <div class="form-floating mb-4">
+                                <input type="password" class="form-control" id="sifre" name="sifre" placeholder="Şifre">
+                                <label for="sifre">Şifre</label>
+                            </div>
+                        </div>
+                        <div class="col-1 col-sm-2 col-md-1"></div>
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-evenly mb-3 mt-3">
+                        <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
+                            <input type="submit" class="btn btn-custom responsive-fs text-center" value="Gönder">
+                        </div>
+                        <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
+                            <input type="reset" class="btn btn-custom responsive-fs text-center" id="sifirla" value="Temizle">
+                        </div>
+                    </div>
+                </form>
             </div>
 
-            <div class="row">
-            <div class="col-1 col-sm-2 col-md-1"></div>
-            <div class="col-10 col-sm-8 col-md-10">
-            <div class="form-floating mb-4">
-                <input type="password" class="form-control" id="sifre" placeholder="Şifre">
-                <label for="sifre">Şifre</label>
+            <div class="col-md-6 col-12">
+                <p class="responsive-fs text-center"><a href="#" onclick="alert('Kullanıcı Adı : g201210050@sakarya.edu.tr\nŞifre : g201210050')">Kullanıcı adı
+                        veya şifrenizi mi unuttunuz?</a></p>
+                <p class="responsive-fs text-center">Sitede giriş yapmadan da dolaşabilirsiniz.</p>
             </div>
-            </div>
-            <div class="col-1 col-sm-2 col-md-1"></div>
-            </div>
-
-            <div class="d-flex flex-row justify-content-evenly mb-3 mt-3">
-                <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                    <input type="submit" class="btn btn-custom responsive-fs text-center" value="Gönder">
-                </div>
-                <div class="m-2 me-1 ms-1 me-md-3 ms-md-3 me-xl-5 ms-xl-5">
-                    <input type="reset" class="btn btn-custom responsive-fs text-center" id="sifirla" value="Temizle">
-                </div>
-            </div>
-        </form>
-    </div>
-    
-    <div class="col-md-6 col-12">
-        <p class="responsive-fs text-center"><a href="#" onclick="alert('Kullanıcı Adı : g201210050@sakarya.edu.tr\nŞifre : g201210050')">Kullanıcı adı veya şifrenizi mi unuttunuz?</a></p>
-        <p class="responsive-fs text-center">Sitede giriş yapmadan da dolaşabilirsiniz.</p>
-    </div>
         </div>
     </div>
 
 
-    <div class="footer-basic login-footer">
+    <div class="footer-basic fixed-footer">
         <footer>
             <p class="copyright">Refik Burak Akbaş</p>
         </footer>
